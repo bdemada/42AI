@@ -6,7 +6,14 @@
 #    By: bde-mada <bde-mada@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/03 13:16:41 by bde-mada          #+#    #+#              #
-#    Updated: 2023/02/03 13:16:42 by bde-mada         ###   ########.fr        #
+#    Updated: 2023/02/03 16:06:56 by bde-mada         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+import sys
+
+def main():
+    print()
+
+if __name__ == '__main__':
+    sys.exit(main())

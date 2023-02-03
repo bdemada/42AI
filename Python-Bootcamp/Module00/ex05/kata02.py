@@ -6,7 +6,16 @@
 #    By: bde-mada <bde-mada@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/03 13:16:36 by bde-mada          #+#    #+#              #
-#    Updated: 2023/02/03 13:16:37 by bde-mada         ###   ########.fr        #
+#    Updated: 2023/02/03 16:04:59 by bde-mada         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+import sys
+
+kata = (2019, 9, 25, 3, 30)
+
+def main():
+    print()
+    
+if __name__ == '__main__':
+    sys.exit(main())
