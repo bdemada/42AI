@@ -1,21 +1,22 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    kata04.py                                          :+:      :+:    :+:    #
+#    recipe.py                                          :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: bde-mada <bde-mada@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/02/03 13:16:41 by bde-mada          #+#    #+#              #
-#    Updated: 2023/02/23 18:23:45 by bde-mada         ###   ########.fr        #
+#    Created: 2023/02/23 18:25:53 by bde-mada          #+#    #+#              #
+#    Updated: 2023/02/23 18:30:58 by bde-mada         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 import sys
 
-kata = (0, 4, 132.42222, 10000, 12345.67)
-
 def	main():
-	print(f'module_{kata[0]:02d}, ex_{kata[1]:02d} : {kata[2]:.2f}, {kata[3]:.2e}, {kata[4]:.2E}')
+	cookbook = dict({'recipe'})
+	recipe = dict({'ingredients' 'meal' 'prep_time'})
+	print(f'{recipe}')
+
 
 if __name__ == '__main__':
 	sys.exit(main())
